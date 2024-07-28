@@ -1,0 +1,135 @@
+.blog {
+    background: url(../../public/img/blog-bg.jpg) no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    & h2 {
+        padding: 60px 0;
+        color: #fff;
+        & span::after {
+            background-color: #fff;
+        }
+    }  
+    
+}
+
+
+
+.blog-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.blog-container_item {
+    height: 280px;
+    flex: 0 0 47%;
+    display: flex;
+    background: aliceblue;
+    margin-bottom: 22px;
+    text-decoration: none;
+
+    &:hover>.blog-container_image {
+        filter: grayscale(0);
+    } 
+
+    &:hover p {
+        text-decoration: underline;
+    }
+}
+
+.blog-container_image {
+    flex: 0 0 50%;
+    height: 100%;
+    transition-duration: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(0.9);
+
+    &::after {
+        content: "";
+        display: inline-block;
+        border-top: 15px solid transparent;
+        border-right: 15px solid aliceblue;
+        border-bottom: 15px solid transparent;
+        right: 0;
+        margin-top: -15px;
+        top: 50%;
+        position: absolute;
+        border-right-color: aliceblue;
+    }
+}
+
+.block-image1 {
+    background: url(../../public/img/kardio_or_strenght.jpg);    
+    background-position: -80px;
+}
+
+.block-image2 {
+    background: url(../../public/img/food.jpg);
+    background-position: -20px;
+}
+
+.block-image3 {
+    background: url(../../public/img/running.jpg);
+    background-position: -120px;
+}
+
+.block-image4 {
+    background: url(../../public/img/stratching.jpg);
+    background-position: -40px;
+}
+
+.block-image1, .block-image2, .block-image3, .block-image4 {
+    background-size: cover;
+    }
+
+.blog-container_item-text-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+    & p {
+        padding-top: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 18px;
+        color: #161c35;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    & span {
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #333;
+        text-align: center;
+    }
+}
+
+.blog_button {
+    text-decoration: none;
+    background-color:#04a9ce;
+    color: aliceblue;
+    display: inline-block;
+    border: 1px solid #04a9ce;
+    border-radius: 0 5px 0 5px;
+    padding: 10px 30px;
+    margin-top: 30px;
+
+    &:hover {
+        background-color:aliceblue;
+        color:#04a9ce;
+        transition-duration: 1s;
+    }
+}
