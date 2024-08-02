@@ -1,0 +1,51 @@
+.banner__wrapper {
+    display: flex;
+    margin-bottom: 97px;
+  }
+  .banner__img {
+    width: 767px;
+    height: 529px;
+    background-image: url("../../../public/img/banner1.jpg");
+    background-size: 767px;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    
+    &:hover {
+        filter: brightness(0.5);
+        transition: filter 0.2s;
+    }
+  }
+  
+  .banner__link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .banner__info {
+    width: 373px;
+    height: 529px;
+    background-color: #222224;
+  }
+ 
+  .banner__title {
+    padding-top: 146px;
+    padding-left: 39px;
+    font-size: 53.5px;
+    letter-spacing: 1.34px;
+
+    & span {
+        color: #f16d7f;
+    }
+  }
+  
+  .banner__subtitle {
+    padding-left: 39px;
+    font-size: 32px;
+    letter-spacing: 0.8px;
+  }
+  .banner__title, .banner__subtitle {
+    text-align: left;
+  }

@@ -1,0 +1,39 @@
+.banner__info-card {
+  display: flex;
+  position: relative;
+  color: #fbfbfb;
+
+  &:hover {
+    color: #f16d7f;
+    transition: color 0.2s;
+  }
+}
+
+.banner__info-img {
+  margin-left: 33px;
+  padding-top: 55px;
+}
+.banner__info-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.banner__info-text {
+  margin-left: 30px;
+  padding-right: 43px;
+  text-align: left;
+}
+.banner__info-title {
+  padding-top: 55px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.banner__info-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  letter-spacing: 0.35px;
+}

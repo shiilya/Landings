@@ -1,0 +1,37 @@
+.fashion {
+    background-color: #e8e8e8;
+    text-align: left;
+  }
+  
+  .fashion__wrapper {
+    display: flex;
+    height: 613px;
+    background: url("../../../public/img/bgi1.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  .fashion__line {
+    margin-top: 224px;
+    margin-right: 12px;
+    width: 12px;
+    height: 97px;
+    background-color: #f16d7f;
+  }
+  .fashion__title {
+    padding-top: 224px;
+    max-width: 489px;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: #222222;
+    line-height: 0.8;
+    & span {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    & mark {
+        background-color: inherit;
+    color: #f16d7f;
+    }
+  }
+ 

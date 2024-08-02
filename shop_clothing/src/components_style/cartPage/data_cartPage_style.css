@@ -1,0 +1,24 @@
+.cart__data {
+    margin-right: 14px;
+    width: 595px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cart__quantity-data {
+    width: 50px;
+    font-size: 13px;
+    color: #575757;
+    padding: 10px 8px;
+    border: 1px solid #eaeaea;
+    text-align: center;
+  }
+  .cart__action-link {
+    text-decoration: none;
+    color: #656565;
+    transition: color 0.2s;
+    &:hover {
+        color: #f16d7f;
+      }
+  }
+  

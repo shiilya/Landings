@@ -1,0 +1,23 @@
+.sort {
+    display: flex;
+    margin-top: 41px;
+    padding: 10px 0 10px 10px;
+    background-color: #f3f3f3;
+  }
+  .sort__title {
+    padding: 7px 13px;
+    font-size: 14px;
+    color: #6f6e6e;
+    border: solid 1px #ebebeb;
+    background-color: #fff;
+  }
+  .sort__select {
+    padding: 7px 13px;
+    font-size: 14px;
+    color: #6f6e6e;
+    border: solid 1px #ebebeb;
+    background-color: #fff;
+  }
+  .sort__select:not(:last-child) {
+    margin-right: 10px;
+  }

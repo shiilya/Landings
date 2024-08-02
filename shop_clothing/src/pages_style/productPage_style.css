@@ -1,0 +1,15 @@
+.productPage_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.productPage_banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222224;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    
+}
+

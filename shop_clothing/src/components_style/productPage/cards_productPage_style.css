@@ -1,0 +1,8 @@
+.cards_grid {
+    padding-top: 60px;
+    padding-left: 99px;
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

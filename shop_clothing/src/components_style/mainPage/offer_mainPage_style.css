@@ -1,0 +1,78 @@
+.offer {
+    margin-top: 98px;
+  }
+  .offer__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .offer__item {
+    position: relative;
+    &:hover {
+        filter: brightness(0.5);
+        transition: filter 0.6s;
+    }
+  }
+  .offer__item-offer1, .offer__item-offer2, .offer__item-offer3, .offer__item-offer4 {
+    width: 560px;
+  }
+  .offer__item-offer1 {
+    height: 542px;
+    background-image: url("../../../public/img/offer1.jpg");
+    margin-bottom: 20px;
+  }
+  .offer__item-offer2 {
+    height: 261px;
+    background-image: url("../../../public/img/offer2.jpg");
+  }
+  .offer__item-offer3 {
+    height: 261px;
+    background-image: url("../../../public/img/offer3.jpg");
+    margin-bottom: 20px;
+  }
+  .offer__item-offer4 { 
+    height: 542px;
+    background-image: url("../../../public/img/offer4.jpg");
+  }
+  .offer__item-link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .offer__title {
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.45px;
+    color: #222222;
+  }
+  .offer__title-men {
+    width: 175px;
+  }
+  .offer__title-trend {
+    width: 225px;
+  }
+  .offer__title-women {
+    width: 162px;
+  }
+  .offer__title-kids {
+    width: 180px;
+  }
+  .offer__suptitle {
+    padding-top: 16px;
+    padding-left: 18px;
+    background-color: #fff;
+  }
+  .offer__subtitle {
+    padding-bottom: 16px;
+    padding-left: 18px;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    color: #f16d7f;
+    background-color: #fff;
+  }
