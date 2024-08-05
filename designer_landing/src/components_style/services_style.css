@@ -1,0 +1,32 @@
+.services {
+    padding: 90px 0;
+    }
+    
+    .services_row {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    }
+    
+    .service_card {
+      flex: 1 1 0;
+      min-width: 315px;
+      & p {
+        line-height: 2;
+      }
+    }
+    
+    
+    .service_card_img {
+      margin-bottom: 30px;
+    }
+    
+    .service_card_title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    }
+    
+    

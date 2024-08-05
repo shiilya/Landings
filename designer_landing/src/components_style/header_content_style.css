@@ -1,0 +1,23 @@
+.header_row {
+    display: flex; 
+    justify-content: space-between;
+    column-gap: 30px;
+    
+  }
+  
+  .header_content {
+    max-width: 500px;
+    margin-top: 124px;
+    & p {
+      line-height: 2;
+      }
+  }
+  
+  .header_heading {
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+  
+
+  

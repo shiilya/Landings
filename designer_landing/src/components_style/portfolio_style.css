@@ -1,0 +1,36 @@
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0;
+    }
+    .title_1 {
+        font-size: 34px;
+        color: #070707;
+        font-weight: 600;
+        }
+    
+    .project {
+    text-align: center;
+    
+    }
+    
+    .project + .project {
+      margin-top: 90px;
+    }
+    
+    .portfolio_title {
+    text-align: center;
+    margin-bottom: 70px;
+    }
+    
+    .project_img {
+    margin-bottom: 40px;
+    }
+    
+    .project_title {
+    font-size: 18px;
+    & a {
+        color: #070707;
+        text-decoration: underline;
+      }
+    
+    }

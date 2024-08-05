@@ -1,0 +1,49 @@
+.header {
+  background-color: #f1f1f1;
+  padding-top: 30px;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+.logo {
+  font-family: 'Borel', cursive;
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+  padding: 0 12px 3px 0;
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #fda300;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+  }
+}
+
+.nav_list {
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav_button {
+  display: none;
+}
+
+.nav_link {
+  color: black;
+  &.active {
+    color: #606060;
+  }
+}
